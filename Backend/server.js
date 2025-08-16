@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080;
 const allowedOrigins = [
     "http://localhost:5173",
     "http://localhost:5174",
-    "https://chatter-champ.vercel.app"
+    "https://prompt-chat-ai-owsi.vercel.app/"
 ];
 
 // ✅ CORS middleware with DELETE method allowed
