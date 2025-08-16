@@ -39,7 +39,7 @@ app.use("/api", chatRoutes);
 
 // ✅ Default route for root URL
 app.get("/", (req, res) => {
-    res.send("ChatterChamp Backend is Running 🚀");
+    res.send("PromptChat AI Backend is Running 🚀");
 });
 
 // ✅ MongoDB connection and server start
